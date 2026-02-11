@@ -6,11 +6,11 @@ on:
 
 jobs: 
     hello-job: 
-     runs-on: ubuntu-latest
+     runs-on: ubuntu-latest 
 
-   steps: 
+     steps:  
 
-    - name: Echo text
-      run: echo "Hello, world!"
+        - name: Echo text
+          run: echo "Hello, world!"
     
        
